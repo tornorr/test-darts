@@ -5,3 +5,4 @@ Title: Test Darts Package
 Description: Turner needs practice loading packages into R.
 Author: Turner Haugen <turnerspamm@gmail.com>
 Maintainer: Turner Haugen <turnerspamm@gmail.com>
+License: MIT + file LICENSE
