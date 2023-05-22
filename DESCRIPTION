@@ -1,2 +1,7 @@
 Package: dartsTest
-Version: 0.1
+Version: 0.2
+Date: 2023-05-22
+Title: Test Darts Package
+Description: Turner needs practice loading packages into R
+Author: Turner (duh)
+Maintainer: Turner (also duh)
