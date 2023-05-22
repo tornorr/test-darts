@@ -1,3 +1,20 @@
+#' Ancient Dart Throwing Simulation
+#'
+#' Creates a dataframe of simulated dart throws, with a specified number of throws.
+#'
+#' @param n.tries number of simulated throws
+#' @param method ancient throwing method used as a string (will be /code{"greek"} by default, can be /code{"celtic"} or /code{"egyptian"})
+#' @param rad radius of a circle centered at /code{0.5, 0.5} that a thrown dart will have /code{on_board} be /code{TRUE} or /code{FALSE}
+#' @param ... additional arguments for the random number generator commands
+#'
+#' @return return_df a dataframe with every simulated dart throw's x and y coordinates, which technique was used, and whether it was on the board.
+#'
+#' @examples
+#' AncientDarts(1000, method = "egyptian")
+#' AncientDarts(3, method = "celtic", rad = 0.6, shape1 = 0.8, shape2 = 0.3)
+#'
+#' @export
+
 AncientDarts <- function(n.tries, method = "greek", rad = 0.5, ...) {
   # simulates throwing a dart at a dartboard using a special time-lost method
   # ARGS: n.tries: number of tries, as an integer
