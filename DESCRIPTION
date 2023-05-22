@@ -2,6 +2,6 @@ Package: dartsTest2
 Version: 0.2
 Date: 2023-05-22
 Title: Test Darts Package
-Description: Turner needs practice loading packages into R
-Author: Turner (duh)
-Maintainer: Turner (also duh)
+Description: Turner needs practice loading packages into R.
+Author: Turner <turnerspamm@gmail.com>
+Maintainer: Turner <turnerspamm@gmail.com>
