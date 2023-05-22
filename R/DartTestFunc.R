@@ -3,8 +3,8 @@
 #' Creates a dataframe of simulated dart throws, with a specified number of throws.
 #'
 #' @param n.tries number of simulated throws
-#' @param method ancient throwing method used as a string (will be /code{"greek"} by default, can be /code{"celtic"} or /code{"egyptian"})
-#' @param rad radius of a circle centered at /code{0.5, 0.5} that a thrown dart will have /code{on_board} be /code{TRUE} or /code{FALSE}
+#' @param method ancient throwing method used as a string (will be \code{"greek"} by default, can be \code{"celtic"} or \code{"egyptian"})
+#' @param rad radius of a circle centered at \code{0.5, 0.5} that a thrown dart will have \code{on_board} be \code{TRUE} or \code{FALSE}
 #' @param ... additional arguments for the random number generator commands
 #'
 #' @return return_df a dataframe with every simulated dart throw's x and y coordinates, which technique was used, and whether it was on the board.
